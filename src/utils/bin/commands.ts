@@ -34,8 +34,7 @@ export const about = async (args: string[]): Promise<string> => {
 Welcome to my website!
 More about me:
 'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -146,6 +145,6 @@ Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 ---
-Type 'seedbox' to connect to seedbox or click <u><a class="text-light-blue dark:text-dark-blue underline" href="app.f604.xyz:8112" target="_blank">here</a></u>.
+Type 'seedbox' to connect to seedbox or click <u><a class="text-light-blue dark:text-dark-blue underline" href="http://app.f604.xyz:8112" target="_blank">here</a></u>.
 `;
 };
