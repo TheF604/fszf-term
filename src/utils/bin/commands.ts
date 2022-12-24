@@ -31,10 +31,13 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
+
 Welcome to my website!
+
+During Christmas of 2022, I wanted to reconnect with my technical hobbies and here I am.  Stay tuned as I add more content. :)
+  
 More about me:
-'sumfetch' - short summary.
-`;
+'sumfetch' - short summary.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -106,11 +109,11 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `Secrets
+Hidden Folder
+Ghost
+Etc
+Bin`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
