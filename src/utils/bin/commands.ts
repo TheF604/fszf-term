@@ -73,7 +73,7 @@ export const linkedin = async (args: string[]): Promise<string> => {
 
 // my apps
 export const seedbox = async (args: string[]): Promise<string> => {
-	window.open('https://app.f604.xyz:8112');
+	window.open('https://app.f604.xyz');
 	return 'Connecting to seedbox';
 };
 
@@ -98,7 +98,7 @@ export const banner = (args?: string[]): string => {
                        ░                   
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
-Type 'seedbox' to connect to seedbox or click <u><a class="text-light-blue dark:text-dark-blue underline" href="https://app.f604.xyz:8112" target="_blank">here</a></u>.
+Type 'seedbox' to connect to seedbox or click <u><a class="text-light-blue dark:text-dark-blue underline" href="https://app.f604.xyz" target="_blank">here</a></u>.
 Type 'blog' to read my blog or click <u><a class="text-light-blue dark:text-dark-blue underline" href="https://blog.f604.xyz" target="_blank">here</a></u>.
 `;
 };
