@@ -19,6 +19,7 @@ export const help = async (args: string[]): Promise<string> => {
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
 Type 'sumfetch' to display summary.
+Type 'seedbox' to connect to torrents.
 `;
 };
 
@@ -40,9 +41,9 @@ More about me:
 'sumfetch' - short summary.`;
 };
 
-export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.resume_url}`);
-  return 'Opening resume...';
+export const blog = async (args: string[]): Promise<string> => {
+  window.open(`${config.blog_url}`);
+  return 'Opening blog...';
 };
 
 // Donate

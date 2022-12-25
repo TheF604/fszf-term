@@ -2,7 +2,7 @@
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
   "title": "fszf-term",
   "name": "fszf",
-  "ascii": "cveinnt",
+  "ascii": "fszf",
   "social": {
     "github": "fszf",
     "linkedin": "frank-shin-55a2b318"
@@ -11,7 +11,7 @@
   "ps1_hostname": "fszf-term",
   "ps1_username": "anonymous",
   "repo": "https://github.com/fszf",
-  "resume_url": "https://github.com/fszf",
+  "blog_url": "https://github.com/fszf",
   "donate_urls": {
     "paypal": "https://paypal.me/fshin604",
     "patreon": "https://"
